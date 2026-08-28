@@ -1,12 +1,169 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>College Exploration</title>
-  <link rel="stylesheet" href="student DashboardPage.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Exploration</title>
+    <link rel="stylesheet" href="student DashboardPage.css">
 </head>
+
 <body>
-  
+<header class="header">
+    <div class="logo">
+        <h2>College Exploration</h2>
+    </div>
+
+    <div class="student-info">
+        <span>Welcome, Lucky</span>
+        <img src="https://avatars.githubusercontent.com/u/240057873?v=4&size=64" alt="Student Profile">
+    </div>
+</header>
+
+
+<main class="dashboard">
+
+    <h1>Student Dashboard</h1>
+    <p class="subtitle">
+        Manage your courses, applications, qualifications and education details.
+    </p>
+    <section class="dashboard-cards">
+        <div class="card">
+            <div class="card-icon">🎓</div>
+            <h3>Preferred Courses</h3>
+
+            <ul>
+                <li>B.Tech Computer Science</li>
+                <li>B.Tech Information Technology</li>
+                <li>B.Tech AI & ML</li>
+            </ul>
+
+            <button>View Courses</button>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">📋</div>
+            <h3>Application Status</h3>
+
+            <div class="application">
+                <p><strong>Computer Science</strong></p>
+                <span class="status pending">Pending</span>
+            </div>
+
+            <div class="application">
+                <p><strong>Information Technology</strong></p>
+                <span class="status accepted">Accepted</span>
+            </div>
+
+            <div class="application">
+                <p><strong>AI & ML</strong></p>
+                <span class="status rejected">Rejected</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">📚</div>
+            <h3>Qualifications</h3>
+
+            <p><strong>10th:</strong> 80%</p>
+            <p><strong>12th:</strong> 78%</p>
+            <p><strong>Entrance Exam:</strong> JEE Main</p>
+
+            <button>Update Qualification</button>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">👤</div>
+            <h3>Student Information</h3>
+
+            <p><strong>Name:</strong> Lucky Khan</p>
+            <p><strong>Student ID:</strong> STU2026001</p>
+            <p><strong>Email:</strong> student@example.com</p>
+            <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+        </div>
+
+    </section>
+
+    <section class="education-section">
+
+        <h2>Education Details</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Board / University</th>
+                    <th>Year</th>
+                    <th>Percentage / CGPA</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>10th</td>
+                    <td>UP Board</td>
+                    <td>2024</td>
+                    <td>80%</td>
+                </tr>
+
+                <tr>
+                    <td>12th</td>
+                    <td>UP Board</td>
+                    <td>2026</td>
+                    <td>78%</td>
+                </tr>
+
+                <tr>
+                    <td>B.Tech</td>
+                    <td>AKTU</td>
+                    <td>2026</td>
+                    <td>7.77 CGPA</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <section class="applications-section">
+
+        <h2>Recent Applications</h2>
+
+        <div class="application-row">
+            <div>
+                <h3>B.Tech Computer Science</h3>
+                <p>Application ID: APP1001</p>
+            </div>
+
+            <span class="status pending">Pending</span>
+        </div>
+
+        <div class="application-row">
+            <div>
+                <h3>B.Tech Information Technology</h3>
+                <p>Application ID: APP1002</p>
+            </div>
+
+            <span class="status accepted">Accepted</span>
+        </div>
+
+        <div class="application-row">
+            <div>
+                <h3>B.Tech Artificial Intelligence</h3>
+                <p>Application ID: APP1003</p>
+            </div>
+
+            <span class="status rejected">Rejected</span>
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>&copy; 2026 College Exploration. All Rights Reserved.</p>
+</footer>
+
+
 </body>
 </html>
