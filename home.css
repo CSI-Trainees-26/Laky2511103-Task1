@@ -37,7 +37,7 @@ nav {
 }
 
 nav img {
-    width: 50px;
+    width: 60px;
     height: auto;
     margin-right: auto;
 }
@@ -93,6 +93,7 @@ body > div:first-of-type > img {
 #div1 h4 {
     color: #0066cc;
     font-size: 18px;
+    margin-top: 25px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
